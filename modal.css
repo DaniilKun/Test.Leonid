@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=PT Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.fon {
+  position: relative;
+  background-color: rgb(107, 107, 107);
+}
+
+.modal1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 470.24px;
+  height: 457px;
+  border-radius: 10px;
+}
+
+.imgmodal {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  padding-top: 19px;
+}
+
+.form1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  color: #000000;
+}
+.forminfo {
+  padding-top: 9px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 389.55px;
+  line-height: 121.5%;
+  font-family: "PT Sans";
+  font-style: normal;
+  text-align: center;
+  color: #454444;
+}
+
+.reg{
+     padding: 39px 40.39px;
+
+}
+
+.name {
+    padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 389.55px;
+  height: 40.65px;
+  border: 0.630345px solid #dbdedf;
+  box-sizing: border-box;
+  border-radius: 15.7586px;
+  margin-bottom: 14.19px;
+}
+
+.modalbut{
+    margin: -30px 40.34px ;
+}
+
+.krest{
+    margin-top: 23px;
+    margin-left: 433px;
+}
